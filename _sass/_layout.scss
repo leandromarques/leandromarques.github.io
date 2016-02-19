@@ -1,13 +1,24 @@
 /**
- * Site header
- */
+* Site header
+*/
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background: url("../images/mac_cofee.jpg") no-repeat;
+    height: 230px;
+    @include background-size(100%);
+    text-align: center;
+    margin-bottom: 30px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    .header-description {
+        color: $white-color;
+    }
+
+    .wrapper {
+        padding-top: 5px;
+    }
 }
 
 .site-title {
@@ -16,24 +27,21 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $white-color;
     }
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $white-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -95,8 +103,8 @@
 
 
 /**
- * Site footer
- */
+* Site footer
+*/
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
@@ -165,10 +173,10 @@
 
 
 /**
- * Page content
- */
+* Page content
+*/
 .page-content {
-    padding: $spacing-unit 0;
+    padding-bottom: $spacing-unit;
 }
 
 .page-heading {
@@ -197,8 +205,8 @@
 
 
 /**
- * Posts
- */
+* Posts
+*/
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -214,7 +222,7 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    margin-bottom: 60px;
 
     h2 {
         font-size: 32px;

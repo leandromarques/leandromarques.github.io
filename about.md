@@ -1,15 +1,19 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Sobre mim
+permalink: /sobre-mim/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Graduado em Análise e Desenvolvimento de Sistemas pela UNA em meados de 2014, comecei a atuar na área de Tecnologia da Informação no mesmo ano.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Apaixonado por desenvolvimento web e mobile (tanto front-end quanto back-end)!
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+
+#Habilidades e paixões:
+
+- Ruby (Rails, Jekyll)
+- JavaScript (Angular, JQuery, Node, Gulp, Bower, etc)
+- PHP (Laravel, Zend, WordPress, Magento)
+- MySQL
+- CSS (Bootstrap, Sass, Compass)
+- HTML 5

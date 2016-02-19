@@ -1,6 +1,6 @@
 /**
- * Reset some basic elements
- */
+* Reset some basic elements
+*/
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -11,8 +11,8 @@ dl, dd, ol, ul, figure {
 
 
 /**
- * Basic styling
- */
+* Basic styling
+*/
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -28,8 +28,8 @@ body {
 
 
 /**
- * Set `margin-bottom` to maintain vertical rhythm
- */
+* Set `margin-bottom` to maintain vertical rhythm
+*/
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -40,8 +40,8 @@ ul, ol, dl, figure,
 
 
 /**
- * Images
- */
+* Images
+*/
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -50,8 +50,8 @@ img {
 
 
 /**
- * Figures
- */
+* Figures
+*/
 figure > img {
     display: block;
 }
@@ -63,8 +63,8 @@ figcaption {
 
 
 /**
- * Lists
- */
+* Lists
+*/
 ul, ol {
     margin-left: $spacing-unit;
 }
@@ -72,15 +72,15 @@ ul, ol {
 li {
     > ul,
     > ol {
-         margin-bottom: 0;
+        margin-bottom: 0;
     }
 }
 
 
 
 /**
- * Headings
- */
+* Headings
+*/
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
@@ -88,8 +88,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /**
- * Links
- */
+* Links
+*/
 a {
     color: $brand-color;
     text-decoration: none;
@@ -107,8 +107,8 @@ a {
 
 
 /**
- * Blockquotes
- */
+* Blockquotes
+*/
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
@@ -125,8 +125,8 @@ blockquote {
 
 
 /**
- * Code formatting
- */
+* Code formatting
+*/
 pre,
 code {
     font-size: 15px;
@@ -153,8 +153,8 @@ pre {
 
 
 /**
- * Wrapper
- */
+* Wrapper
+*/
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -175,8 +175,8 @@ pre {
 
 
 /**
- * Clearfix
- */
+* Clearfix
+*/
 %clearfix {
 
     &:after {
@@ -189,8 +189,8 @@ pre {
 
 
 /**
- * Icons
- */
+* Icons
+*/
 .icon {
 
     > svg {
@@ -203,4 +203,13 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: url("../images/eu.jpg") no-repeat;
+    margin: 0 auto;
+    @include background-size(100%);
 }
