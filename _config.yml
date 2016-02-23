@@ -16,6 +16,7 @@ url: "http://leandrom.com.br" # the base hostname & protocol for your site
 twitter_username: leandropma
 github_username:  leandromarques
 disqus: leandrom
+footer_phrase: Feito com Jekyll
 
 # Build settings
 markdown: kramdown
