@@ -53,6 +53,14 @@ $on-laptop:        800px;
   background-size: $size;
 }
 
+@mixin blur($size) {
+  -moz-filter: blur($size);
+  -o-filter: blur($size);
+  -ms-filter: blur($size);
+  -webkit-filter: blur($size);
+  filter: blur($size);
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
