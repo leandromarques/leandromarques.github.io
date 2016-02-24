@@ -199,9 +199,10 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 40px;
+        height: 40px;
         vertical-align: middle;
+        margin-right: 20px;
 
         path {
             fill: $grey-color;
@@ -211,9 +212,10 @@ pre {
 
 .circle {
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background: url("../images/eu.jpg") no-repeat;
     margin: 0 auto;
     @include background-size(100%);
+    margin-top: 20px;
 }

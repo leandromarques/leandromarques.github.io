@@ -3,11 +3,11 @@
 */
 .site-header {
     min-height: 56px;
-    background: url("../images/mountain_1.jpg") no-repeat;
-    height: 250px;
+    background: url("../images/hipster3.jpg") no-repeat;
+    height: 350px;
     @include background-size(100%);
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -15,7 +15,7 @@
     .header-description, .header-phrase {
         color: $white-color;
         margin-bottom: 5px;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .wrapper {
@@ -24,8 +24,8 @@
 }
 
 .site-title {
-    font-size: 35px;
-    font-weight: 300;
+    font-size: 47px;
+    font-weight: 400;
     letter-spacing: -1px;
     margin-bottom: 0;
 
@@ -111,13 +111,25 @@
 .site-footer {
     background-color: $grey-color-light;
     padding: $spacing-unit 0;
+
+    .footer-heading {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: $spacing-unit / 2;
+    }
+
+    .social-media-list {
+      text-align: center;
+    list-style: none;
+    margin-left: 0;
+      >li {
+        display: inline;
+      }
+    }
 }
 
-.footer-heading {
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: $spacing-unit / 2;
-}
+
+
 
 
 
