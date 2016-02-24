@@ -21,6 +21,10 @@
     .wrapper {
         padding-top: 5px;
     }
+
+    @include media-query($on-palm) {
+        @include background-size(300%);
+    }
 }
 
 .site-title {
@@ -60,7 +64,7 @@
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
-        text-align: right;
+        text-align: left;
 
         .menu-icon {
             display: block;
@@ -94,11 +98,11 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            color: #666;
 
             &:not(:last-child) {
                 margin-right: 0;
             }
-            margin-left: 20px;
         }
     }
 }
