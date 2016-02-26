@@ -9,11 +9,14 @@ Graduado em Análise e Desenvolvimento de Sistemas pela UNA em meados de 2014, c
 Apaixonado por desenvolvimento web e mobile (tanto front-end quanto back-end)!
 
 
-#Habilidades e paixões:
+------------- Habilidades e paixões: -------------
 
-- Ruby (Rails, Jekyll)
+- Ruby (Rails)
 - JavaScript (Angular, JQuery, Node, Gulp, Bower, etc)
 - PHP (Laravel, Zend, WordPress, Magento)
 - MySQL
 - CSS (Bootstrap, Sass, Compass)
 - HTML 5
+- Git
+- OS X
+- Linux
