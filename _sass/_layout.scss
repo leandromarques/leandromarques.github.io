@@ -27,6 +27,12 @@
     }
 }
 
+.bgParallax { 
+	background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
 .site-title {
     font-size: 47px;
     font-weight: $titles-font-weight;

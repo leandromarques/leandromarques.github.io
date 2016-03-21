@@ -6,6 +6,8 @@
   <meta http-equiv="refresh" content="5; url=/">
   {% endif %}
 
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
