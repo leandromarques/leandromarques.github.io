@@ -3,7 +3,7 @@
 */
 .site-header {
     min-height: 56px;
-    background: url("../images/hipster3.jpg") no-repeat;
+    background: url("../images/back_header.jpg") no-repeat;
     height: 350px;
     @include background-size(100%);
     text-align: center;
@@ -27,7 +27,7 @@
     }
 }
 
-.bgParallax { 
+.bgParallax {
 	background-position: 50% 0;
 	background-repeat: repeat;
 	background-attachment: fixed;
