@@ -4,16 +4,17 @@ title: Sobre mim
 permalink: /sobre-mim/
 ---
 
-Graduado em Análise e Desenvolvimento de Sistemas pela UNA em meados de 2014, comecei a atuar na área de Tecnologia da Informação no mesmo ano.
+Graduado em Análise e Desenvolvimento de Sistemas pela UNA em meados de 2014.
 
-Apaixonado por desenvolvimento web e mobile (tanto front-end quanto back-end)!
+Atua com desenvolvimento de software desde 2013.
 
 
-##Habilidades e paixões:
+##Habilidades:
 
-- Ruby (Rails)
+- Ruby (Rails, Rspec)
 - JavaScript (Angular, JQuery, Node, Gulp, Bower, etc)
-- PHP (Laravel, Zend, WordPress, Magento)
+- Java (Spring MVC, Hibernate, JUnit)
+- PHP (Laravel, WordPress, Magento)
 - MySQL
 - CSS (Bootstrap, Sass, Compass)
 - HTML 5

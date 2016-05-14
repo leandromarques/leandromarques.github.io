@@ -7,5 +7,5 @@ gulp.task('default', function() {
 gulp.task('minify-images', function() {
   return gulp.src('images/*')
   .pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
-  .pipe(gulp.dest('dist/images'));
+  .pipe(gulp.dest('images'));
 });
