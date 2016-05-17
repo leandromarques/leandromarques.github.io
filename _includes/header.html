@@ -1,11 +1,15 @@
 <header class="site-header bgParallax" data-speed="150">
 
   <div class="wrapper">
-
-    <div class="circle">
-    </div>
+    <a class="site-title" href="{{ site.baseurl }}/">
+        <div class="circle">
+        </div>
+    </a>
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     <p class="header-description">{{ site.description }}</p>
+    <p class="header-phrase">
+      {{site.phrase}}
+    </p>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -17,7 +21,6 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="{{ site.baseurl }}">Início</a>
         {% for my_page in site.pages %}
           {% if my_page.title and my_page.title != 404 %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
