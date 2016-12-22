@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "Instalação/Atualização do NodeJs no Ubuntu e Debian via NVM"
+title:  "Instalação do NodeJs mais atual no Ubuntu via NVM"
 date:   2016-12-17 18:00:00 -0200
 categories: infraestrutura
 ---
-Sempre que mudo de computador ou preciso formatá-lo por algum motivo, acabo precisando atualizar o NodeJs no Ubuntu (ou qualquer outra distribuição baseada no Debian que eu venha a utilizar).
+Dificilmente sua instalação do Ubuntu (ou outra distribuição Debian) vem com o NodeJs e NPM em sua versão mais recente. Uma forma fácil, rápida e inteligente de instalar ou atualizar o NodeJs em seu computador é utilizando o NVM.
 
-A minha primeira ação é ir no Google e pesquisar pela solução (o que muito de vocês que chegaram aqui deve ter feito) e ir pulando de página em página até achar um modo que funcione sem maiores problemas. Sempre acabo me enrolando nas diferentes opções existentes.
+O NVM é um gerenciador de versões do NodeJs (assim como o RVM está para o Ruby), que permite que você tenha várias versões instaladas em sua máquina, podendo alternar entre elas dependendo de sua necessidade.
 
-Dessa vez acabei fazendo o processo via NVM (gerenciador de versões do Node), que foi muito mais simples e rápido que incluir PPA's ou baixar os binários e fazer tudo na mão. Sem contar o ganho de se usar um gerenciador de versões, que me dá muita flexibilidade caso seja necessário usar diferentes versões do Node.
-
-Então, vamos instalar o Node!
+Para instalar, é muito fácil.
 
 Vá ao terminal e baixe as dependências
 
@@ -22,6 +20,7 @@ Logo em seguida, baixe o NVM (mude o número da versão, caso seja necessário),
 
  ```
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+
  ```
 
  Aplique as alterações do bash para conseguir utilizar o comando nvm:
