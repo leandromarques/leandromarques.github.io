@@ -20,7 +20,6 @@ Logo em seguida, baixe o NVM (mude o número da versão, caso seja necessário),
 
  ```
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-
  ```
 
  Aplique as alterações do bash para conseguir utilizar o comando nvm:
