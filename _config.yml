@@ -17,6 +17,7 @@ twitter_username: leandropma
 github_username:  leandromarques
 disqus: leandrom
 footer_phrase: Feito com Jekyll
+highlighter: rouge
 
 # Build settings
 markdown: kramdown
