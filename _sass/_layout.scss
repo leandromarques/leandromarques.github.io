@@ -162,6 +162,7 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    text-align: center;
 
     > li {
         margin-bottom: $spacing-unit;
@@ -173,12 +174,14 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    text-align: center;
 }
 
 .post-link {
     display: block;
     font-size: 38px;
     font-weight: $titles-font-weight;
+    text-align: center;
 }
 
 
@@ -195,6 +198,7 @@
     letter-spacing: -1px;
     line-height: 1;
     font-weight: $titles-font-weight;
+    text-align: center;
 
 
     @include media-query($on-laptop) {
@@ -207,13 +211,13 @@
     margin-bottom: 60px;
 
     h2 {
-        font-size: 25px;
+        font-size: 30px;
         font-weight: 600;
+        text-align: center;
 
         @include media-query($on-laptop) {
             margin-top: 10px;
             font-size: 28px;
-            text-align: center;
         }
     }
 
