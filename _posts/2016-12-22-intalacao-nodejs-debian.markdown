@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Instalação do NodeJs mais atual no Ubuntu via NVM"
+title:  "Instalação do NodeJs via NVM"
 date:   2016-12-17 18:00:00 -0200
 categories: infraestrutura
 ---
