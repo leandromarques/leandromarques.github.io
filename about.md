@@ -3,20 +3,8 @@ layout: page
 title: Sobre mim
 permalink: /sobre-mim/
 ---
-- Atua com desenvolvimento de software desde 2013.
-- Graduado em Análise e Desenvolvimento de Sistemas pela UNA/BH em meados de 2014.
+Olá! Meu nome é Leandro Marques, sou desenvolvedor Full Stack e moro atualmente em Belo Horizonte.
 
-## Principais habilidades e interesses:
+Atuo com desenvolvimento de software desde 2013. Já passei por várias empresas, desde as mais tradicionais, passando também por startups. Atualmente trabalho na [iOasys](https://ioasys.com){:target="_blank"}. Sou entusiasta de open-source, apaixonado por web e mobile. Aprender novas ferramentas e metodologias de desenvolvimento é um hobby para mim!
 
-- Agile, Scrum, BDD, TDD
-- Ruby (Rails, Rspec, Jekyll)
-- JavaScript (React, Ember, Node, JQuery, Gulp, Bower, etc)
-- PostgreSQL
-- MySQL
-- HTML5
-- CSS (Sass)
-- Git
-- Nginx
-- Docker
-- Linux
-- OS X
+Quer saber quais habilidades e interesses que tenho na área de software, além das minhas experiências de forma mais detalhada? Confere meu [LinkedIn](https://www.linkedin.com/in/leandromarquesdonascimento/){:target="_blank"}.
