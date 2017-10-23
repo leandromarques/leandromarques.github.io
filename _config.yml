@@ -11,8 +11,8 @@ email: leandro86marques@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Desenvolvedor Full Stack
 phrase:  Apaixonado por desenvolvimento de software <i class="fa fa-heart"></i>
-baseurl: "http://leandrom.com.br" # the subpath of your site, e.g. /blog
-url: "http://leandrom.com.br" # the base hostname & protocol for your site
+baseurl: "https://leandrom.com.br" # the subpath of your site, e.g. /blog
+url: "https://leandrom.com.br" # the base hostname & protocol for your site
 twitter_username: leandropma
 github_username:  leandromarques
 disqus: leandrom
