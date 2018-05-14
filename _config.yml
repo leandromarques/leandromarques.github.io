@@ -10,8 +10,8 @@ title: Leandro Marques
 email: leandro86marques@gmail.com
 description: Engenheiro de Software
 phrase:  Apaixonado por desenvolvimento de software
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site
+baseurl: "https://leandrom.com.br" # the subpath of your site, e.g. /blog
+url: "https://leandrom.com.br" # the base hostname & protocol for your site
 twitter_username: leandropma
 github_username:  leandromarques
 disqus: leandrom
