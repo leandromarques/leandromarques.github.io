@@ -8,10 +8,10 @@
 # Site settings
 title: Leandro Marques
 email: leandro86marques@gmail.com
-description: Desenvolvedor Full Stack
-phrase:  Apaixonado por desenvolvimento de software <i class="fa fa-heart"></i>
-baseurl: "http://leandrom.com.br" # the subpath of your site, e.g. /blog
-url: "http://leandrom.com.br" # the base hostname & protocol for your site
+description: Engenheiro de Software
+phrase:  Apaixonado por desenvolvimento de software
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site
 twitter_username: leandropma
 github_username:  leandromarques
 disqus: leandrom

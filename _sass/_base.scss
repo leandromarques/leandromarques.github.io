@@ -16,6 +16,7 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
+    color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -134,10 +135,10 @@ blockquote {
 */
 pre,
 code {
+    width: 100%;
     font-size: 15px;
-    border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: #000000;
 }
 
 code {
@@ -161,20 +162,17 @@ pre {
 * Wrapper
 */
 .wrapper {
-    // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    // max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    width: 70%;
+    width: 52%;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+    @include media-query($on-mobile) {
+      width: 90%;
+      padding-right: 0px;
+      padding-left: 0px;
     }
 }
 
@@ -216,7 +214,7 @@ pre {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    background: url("../images/eu.png") no-repeat;
+    background: url("../images/eu.jpg") no-repeat;
     margin: 0 auto;
     @include background-size(100%);
 }

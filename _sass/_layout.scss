@@ -2,24 +2,30 @@
 * Site header
 */
 .site-header {
-    // background: url("../images/background-header.jpg") no-repeat;
-    background-image: linear-gradient(to right, #9D50BB 0%, #6E48AA 51%, #9D50BB 100%);
-    height: 280px;
-    // @include background-size(100%);
-    text-align: center;
-    margin-bottom: 60px;
 
-    // Positioning context for the mobile navigation icon
-    // position: relative;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 200px;
+
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    // background: url("../images/back_header.jpg");
 
     &:hover {
       background-position: right center;
     }
 
+    a {
+      color: $text-color;
+    }
+
     .header-description, .header-phrase {
-        color: $white-color;
+        color: $text-color;
+        font-size: $base-font-size;
         margin-bottom: 5px;
-        font-size: 18px;
     }
 
     .wrapper {
@@ -27,9 +33,23 @@
         padding-top: 5px;
     }
 
-    @include media-query($on-palm) {
+    @include media-query($on-mobile) {
         @include background-size(300%);
     }
+
+    .social-media-list {
+      text-align: center;
+      list-style: none;
+      margin: 0;
+      >li {
+        display: inline;
+        i {
+          padding: 10px;
+          font-size: 40px;
+        }
+      }
+    }
+
 }
 
 // .bgParallax {
@@ -39,14 +59,14 @@
 // }
 
 .site-title {
-    font-size: 40px;
+    font-size: $titles-font-size;
     font-weight: $titles-font-weight;
     letter-spacing: -1px;
     margin-bottom: 0;
 
     &,
     &:visited {
-        color: $white-color;
+        color: $text-color;
     }
 }
 
@@ -59,7 +79,7 @@
     }
 
     .page-link {
-        color: $white-color;
+        color: $base-link-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -68,7 +88,7 @@
         }
     }
 
-    @include media-query($on-palm) {
+    @include media-query($on-mobile) {
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
@@ -124,21 +144,29 @@
 * Site footer
 */
 .site-footer {
-    background-color: $grey-color-light;
     padding: $spacing-unit 0;
 
     .footer-heading {
         text-align: center;
-        font-size: 16px;
+        font-size: $titles-font-size;
         margin-bottom: $spacing-unit / 2;
     }
 
+    a {
+      color: $text-color;
+    }
+
+
     .social-media-list {
       text-align: center;
-    list-style: none;
-    margin-left: 0;
+      list-style: none;
+      margin-left: 0;
       >li {
         display: inline;
+        i {
+          padding: 10px;
+          font-size: 40px;
+        }
       }
     }
 }
@@ -156,13 +184,16 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .post-list {
     margin-left: 0;
     list-style: none;
     text-align: center;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+
 
     > li {
         margin-bottom: $spacing-unit;
@@ -178,8 +209,9 @@
 }
 
 .post-link {
+    color: $base-link-color;
     display: block;
-    font-size: 38px;
+    font-size: $titles-font-size;
     font-weight: $titles-font-weight;
     text-align: center;
 }
@@ -194,15 +226,14 @@
 }
 
 .post-title {
-    font-size: 38px;
+    font-size: $titles-font-size;
     letter-spacing: -1px;
     line-height: 1;
     font-weight: $titles-font-weight;
     text-align: center;
 
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
+    @include media-query($on-desktop) {
         text-align: center;
     }
 }
@@ -210,12 +241,29 @@
 .post-content {
     margin-bottom: 60px;
 
+    p {
+      text-align: justify;
+      font-size: $base-font-size;
+      line-height: $base-line-height;
+      margin-bottom: 40px;
+
+      @include media-query($on-mobile) {
+          text-align: left;
+      }
+
+    }
+
+    code {
+      text-align: left;
+    }
+
+
     h2 {
         font-size: 30px;
         font-weight: 600;
         text-align: center;
 
-        @include media-query($on-laptop) {
+        @include media-query($on-desktop) {
             margin-top: 10px;
             font-size: 28px;
         }
@@ -224,7 +272,7 @@
     h3 {
         font-size: 26px;
 
-        @include media-query($on-laptop) {
+        @include media-query($on-desktop) {
             font-size: 22px;
         }
     }
@@ -232,7 +280,7 @@
     h4 {
         font-size: 20px;
 
-        @include media-query($on-laptop) {
+        @include media-query($on-desktop) {
             font-size: 18px;
         }
     }
