@@ -1,0 +1,57 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.list-inline {
+  margin-top: 20px;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline li i {
+  color: #ccc;
+  display: inline;
+}
+
+.list-inline li i:hover {
+  color: #666;
+}
+
+.photo {
+  margin-top: 10%;
+}
+
+.photo-circle {
+  background-image: url('../images/eu_bw.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  height: 130px;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  width: 130px;
+}
+
+.title-main {
+  text-align: center;
+}
+
+.title-main h1 {
+  color: #404040;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.title-main p {
+  color: #B0B0B0;
+  margin: 5px;
+}
