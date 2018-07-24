@@ -16,6 +16,7 @@ body {
 
 .list-inline li {
   display: inline;
+  margin-right: 10px;
 }
 
 .list-inline li i {
@@ -35,10 +36,10 @@ body {
   background-image: url('../images/eu_bw.jpg');
   background-size: cover;
   border-radius: 50%;
-  height: 130px;
+  height: 200px;
   margin: 0px auto;
   margin-bottom: 10px;
-  width: 130px;
+  width: 200px;
 }
 
 .title-main {
@@ -47,11 +48,12 @@ body {
 
 .title-main h1 {
   color: #404040;
-  font-size: 30px;
+  font-size: 45px;
   margin: 0px;
 }
 
 .title-main p {
   color: #B0B0B0;
   margin: 5px;
+  font-size: 20px;
 }
