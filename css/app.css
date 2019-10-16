@@ -36,10 +36,10 @@ body {
   background-image: url('../images/eu_bw.jpg');
   background-size: cover;
   border-radius: 50%;
-  height: 200px;
+  height: 100px;
   margin: 0px auto;
   margin-bottom: 10px;
-  width: 200px;
+  width: 100px;
 }
 
 .title-main {
@@ -48,7 +48,7 @@ body {
 
 .title-main h1 {
   color: #404040;
-  font-size: 45px;
+  font-size: 35px;
   margin: 0px;
 }
 
@@ -56,4 +56,14 @@ body {
   color: #B0B0B0;
   margin: 5px;
   font-size: 20px;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.about-me p {
+  color: #404040;
+  margin: 5px;
+  font-size: 14px;
 }
