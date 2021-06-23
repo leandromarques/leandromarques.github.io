@@ -20,26 +20,27 @@ body {
 }
 
 .list-inline li i {
-  color: #ccc;
+  color: #666;
   display: inline;
 }
 
 .list-inline li i:hover {
-  color: #666;
+  color: #ccc;
 }
 
 .photo {
-  margin-top: 10%;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .photo-circle {
-  background-image: url('../images/eu_bw.jpg');
+  background-image: url('../images/eu.jpg');
   background-size: cover;
   border-radius: 50%;
-  height: 100px;
+  height: 130px;
   margin: 0px auto;
   margin-bottom: 10px;
-  width: 100px;
+  width: 130px;
 }
 
 .title-main {
@@ -53,9 +54,9 @@ body {
 }
 
 .title-main p {
-  color: #B0B0B0;
+  color: #404040;
   margin: 5px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .about-me {
@@ -65,5 +66,5 @@ body {
 .about-me p {
   color: #404040;
   margin: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
