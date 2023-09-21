@@ -3,7 +3,7 @@ a {
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #29302b;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -48,13 +48,13 @@ body {
 }
 
 .title-main h1 {
-  color: #404040;
+  color: #FFFFFF;
   font-size: 35px;
   margin: 0px;
 }
 
 .title-main p {
-  color: #404040;
+  color: #FFFFFF;
   margin: 5px;
   font-size: 17px;
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .about-me p {
-  color: #404040;
+  color: #FFFFFF;
   margin: 5px;
   font-size: 12px;
 }
